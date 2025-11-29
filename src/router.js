@@ -4,8 +4,8 @@ import HomePage from '@/views/HomePage.vue'
 import CardDetails from './views/CardDetails.vue'
 import LoginPage from './views/LoginPage.vue'
 import SettingsPage from './views/SettingsPage.vue'
-import { useAuth } from '@vueuse/firebase'
-import { useAttrs } from 'vue'
+//import { useAuth } from '@vueuse/firebase'
+//import { useAttrs } from 'vue'
 
 import { useAuth } from './composables/useAuth'
 const { isAuthenticated } = useAuth()
