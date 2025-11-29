@@ -1,7 +1,7 @@
 {
   "eslint.alwaysShowStatus": true,
   "eslint.lintTask.enable": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.arrowParens": "always",
   "prettier.jsxSingleQuote": true,
   "prettier.semi": false,
@@ -14,7 +14,13 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "eslint.packageManager": "npm",
-  "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "commonjs"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "typescript",
+    "commonjs"
+  ],
   "eslint.workingDirectories": [
     {
       "mode": "auto"
